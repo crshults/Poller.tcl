@@ -9,6 +9,8 @@ Common pattern that kept coming up when talking to devices.
 5. Go back to polling
 6. If the timeout action ever fires, stop the polling cycle
 
+
+**Example Usage:**
 ```
 package require poller
 
