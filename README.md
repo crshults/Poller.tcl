@@ -30,3 +30,9 @@ proc handle_timeout {} {
 poller create myPoller 1000 10000 send_request read_response handle_timeout
 myPoller start
 ```
+
+## How to make it available for use:
+
+1. Take the Tcl module file and drop it into `<TclInstallRoot>\lib\tcl8\8.6\`
+2. Rename it to poller-0.0.1.tm
+3. `package require poller`
